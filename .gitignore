@@ -1,0 +1,5 @@
+# npm
+client/node_modules
+
+# next
+client/.next
