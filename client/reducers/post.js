@@ -9,13 +9,13 @@ export const initialState = {
       content: '첫 번째 게시글 #해시태그 #익스프레스',
       Images: [
         {
-          src: 'https://pixabay.com/get/g90c7e16b09c96a84804c4429361653d4f1c9a4901396debbd7780c367deb6ca0726f51e52aa86727cc1bd59be0a8d02aa43f20ebc3172f71ba753fe2dc513b2bddca1616c32b5863fcecd3a270bf89e6_640.jpg',
+          src: 'https://user-images.githubusercontent.com/63575891/167721989-5995cfae-f81d-4b09-9a62-c43b4cdf98df.jpg',
         },
         {
-          src: 'https://pixabay.com/get/g16b443ccda14f9d7f5530f42ce499cd08e9ef429d7d9fca3bb3f63027ab9b1ff3e27784867bd36dacf276f54b6900b3152a0254fc172aa1be4604eb4cd6185a839b096c44acfe9f70d55c0084eec132c_640.jpg',
+          src: 'https://user-images.githubusercontent.com/63575891/167721994-6a4ecdc9-5fc3-4528-adaa-64f2c28d92dd.jpg',
         },
         {
-          src: 'https://pixabay.com/get/g4f9a478724b7b6e4f53e8df93b9b510fe6d6767ee94f144fbb795daa2fecb2ec61ad9e9351db8f4e1f938f373ca104ed6f7a23a94f2534bfcef15f1e0d60f2a0c62bb2e8b977759ad105abe5c9137f56_640.jpg',
+          src: 'https://user-images.githubusercontent.com/63575891/167722002-346e152b-77b1-4d4e-818d-0a81dedbdbae.jpg',
         },
       ],
       Comments: [
