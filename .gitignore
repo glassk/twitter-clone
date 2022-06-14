@@ -1,5 +1,8 @@
 # npm
-client/node_modules
+node_modules
 
 # next
-client/.next
+.next
+
+# dotenv environment variables file
+.env
