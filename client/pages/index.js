@@ -1,10 +1,11 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { LOAD_POSTS_REQUEST } from '../actions/post';
 
 import AppLayout from '../components/AppLayout';
 import PostCard from '../components/PostCard';
 import PostForm from '../components/PostForm';
+import { LOAD_POSTS_REQUEST } from '../actions/post';
+import { LOAD_MY_INFO_REQUEST } from '../actions/user';
 
 const Home = () => {
   const dispatch = useDispatch();
@@ -14,6 +15,9 @@ const Home = () => {
   );
 
   useEffect(() => {
+    dispatch({
+      type: LOAD_MY_INFO_REQUEST,
+    });
     dispatch({
       type: LOAD_POSTS_REQUEST,
     });
