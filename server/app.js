@@ -22,7 +22,8 @@ passportConfig();
 
 app.use(
   cors({
-    origin: true,
+    origin: true, // http://localhost:3000
+    credentials: true,
   })
 );
 app.use(express.json());
