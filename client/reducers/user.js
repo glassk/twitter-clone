@@ -47,23 +47,6 @@ export const initialState = {
   changeNicknameError: null,
 };
 
-const dummyUser = (data) => ({
-  ...data,
-  nickname: 'neori',
-  id: 1,
-  Posts: [{ id: 1 }],
-  Followings: [
-    { nickname: '너리너' },
-    { nickname: '별이' },
-    { nickname: '레몬' },
-  ],
-  Followers: [
-    { nickname: '너리너' },
-    { nickname: '별이' },
-    { nickname: '레몬' },
-  ],
-});
-
 export const loginRequestAction = (data) => {
   return {
     type: LOG_IN_REQUEST,
@@ -89,7 +72,7 @@ const reducer = (state = initialState, action) => {
       case LOG_IN_SUCCESS:
         draft.logInLoading = false;
         draft.logInDone = true;
-        draft.me = dummyUser(action.data);
+        draft.me = action.data;
         break;
       case LOG_IN_FAILURE:
         draft.logInLoading = false;
